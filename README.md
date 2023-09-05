@@ -94,11 +94,12 @@ vae_decoder.<xml|bin>
 vae_encoder.<xml|bin>
 * If your local path already exists ONNX or IR model, the script will jump tore-generate ONNX/IR. If you updated the pytorch model or want to generate model with different shape, please remember to delete existed ONNX and IR models.
 
+
 2. Runtime pipeline test for Stable Diffusion Inpaint Controlnet Pipeline + Roop
 Prepare 512x512 size images:
-  1. orignal image. (orignal.png in repo)
-  2. mask image. white part is the position to inpaint, black is to keep. (mask.png in repo)
-  3. reference face image. Used for roop to replace face. (ref_face.png in repo)
+     orignal image. (orignal.png in repo)
+     mask image. white part is the position to inpaint, black is to keep. (mask.png in repo)
+     reference face image. Used for roop to replace face. (ref_face.png in repo)
 Note: in this repo, above image examples are provided.
 
 Start running pipeline:

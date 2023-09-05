@@ -91,7 +91,7 @@ In example, batch number is 2 for the converted models.
 
 After running convertion. Please check your current path, make sure you already generated below models currently. Other ONNX files can be deleted for saving space.
 
-controlnet-canny.<xml|bin>
+controlnet-inpaint.<xml|bin>
 text_encoder.<xml|bin>
 unet_controlnet.<xml|bin>
 vae_decoder.<xml|bin>

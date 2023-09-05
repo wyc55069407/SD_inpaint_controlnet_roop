@@ -2,6 +2,10 @@
 
 This proj is a demo to run SD1.5 with inpaint controlnet integrated on OpenVino.
 
+You can running demo through:
+ 1. sd_inpaint_controlnet_roop.ipynb
+ 2. Setup following env and run locally
+
 ## Installation Basic Dependencies
 
 Python

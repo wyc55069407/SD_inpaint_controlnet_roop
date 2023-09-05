@@ -1,0 +1,1 @@
+python run.py -s ref_face.png -t orig.png -o out.png --execution-provider openvino
